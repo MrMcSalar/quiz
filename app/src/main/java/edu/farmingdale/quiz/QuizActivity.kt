@@ -14,11 +14,11 @@ import androidx.appcompat.app.AppCompatActivity
 class QuizActivity : AppCompatActivity() {
 
     private val questions = listOf(
-        QuizQuestion("What is 2 + 2?", listOf("3", "4", "5"), listOf("4")),
-        QuizQuestion("What is the capital of France?", listOf("Berlin", "Madrid", "Paris"), listOf("Paris")),
-        QuizQuestion("Select the primary colors:", listOf("Red", "Green", "Blue"), listOf("Red", "Blue")),
-        QuizQuestion("Which of the following are programming languages?", listOf("Python", "HTML", "CSS"), listOf("Python")),
-        QuizQuestion("Is the Earth flat?", listOf("Yes", "No"), listOf("No"))
+        QuizQuestion("What is 5 + 20?", listOf("10", "20", "25"), listOf("25")),
+        QuizQuestion("What course is this for?", listOf("CSC325", "BCS471", "BCS470"), listOf("BCS471")),
+        QuizQuestion("Who made this app", listOf("Salar", "Joe", "Amongus"), listOf("Salar")),
+        QuizQuestion("Which of the following are languages?", listOf("English", "French", "Spanish"), listOf("English, French, Spanish")),
+        QuizQuestion("Is the 25 an even number?", listOf("Yes", "No"), listOf("No"))
     )
 
     private var currentQuestionIndex = 0
