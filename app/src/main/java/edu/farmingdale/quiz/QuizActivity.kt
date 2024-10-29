@@ -17,8 +17,8 @@ class QuizActivity : AppCompatActivity() {
         QuizQuestion("What is 5 + 20?", listOf("10", "20", "25"), listOf("25")),
         QuizQuestion("What course is this for?", listOf("CSC325", "BCS471", "BCS470"), listOf("BCS471")),
         QuizQuestion("Who made this app", listOf("Salar", "Joe", "Amongus"), listOf("Salar")),
-        QuizQuestion("Which of the following are languages?", listOf("English", "French", "Spanish"), listOf("English, French, Spanish")),
-        QuizQuestion("Is the 25 an even number?", listOf("Yes", "No"), listOf("No"))
+        QuizQuestion("Which of the following are languages?", listOf("English", "French", "Spanish"), listOf("English", "French", "Spanish")),
+        QuizQuestion("Is the 25 an odd number??", listOf("Yes", "No"), listOf("No"))
     )
 
     private var currentQuestionIndex = 0
